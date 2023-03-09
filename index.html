@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Marriage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet"> 
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger link-important" href="#presence">Confirmer votre présence</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#information">Information & Hébergement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#programmation">Programmation Week-end</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#lieu">Lieu & Plan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#voyage">Voyage de noces</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading-2">Sophie et Thomas</div>
+          <div class="intro-heading">Nous nous marions !</div>
+		  <div class="intro-heading">Samedi, 2 septembre 2023</div>
+          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#presence">Confirmer votre présence</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- confirm presence -->
+    <section id="presence" class="bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Merci de confirmer votre présence</h2>
+            <h3 class="section-subheading text-muted">avant le 23 Janvier 2023.</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form id="contactForm" name="sentMessage" novalidate="novalidate">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input class="form-control" id="name" type="text" placeholder="Nom et prénom *" required="required" data-validation-required-message="Veuillez entrer votre nom et prénom">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="email" type="email" placeholder="E-mail *" required="required" data-validation-required-message="Veuillez entrer votre email">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <input class="form-control" id="adresse" type="text" placeholder="Adresse *" required="required" data-validation-required-message="Veuillez entrer votre adresse">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+				<div class="form-group">
+				  <label for="sel1">Je viendrai...</label>
+				  <select class="form-control" id="sel1">
+					<option>Accompagné(e)</option>
+					<option>Seul(e)</option>
+					<option>Avec mes enfants</option>
+				  </select>
+				</div>
+                  <div class="form-group">
+                    <textarea class="form-control" id="message" placeholder="Message *" required="required" data-validation-required-message="Veuillez entrer un message"></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-lg-12 text-center">
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Confirmer</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+	
+	<!-- Info -->
+    <section class="bg-greygrey" id="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Nous contacter</h2>
+            <h3 class="section-subheading text-muted"></h3>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Téléphone</h4>
+			<div class="text-muted">+33 6 31 49 72 50 (Sophie)</div>
+            <div class="text-muted">+33 6 72 12 28 82 (Thomas)</div>
+          </div>
+          <div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-at fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Email</h4>
+			<div class="text-muted"><a href="mailto:so@win.com">so@win.com</a></div>
+            <div class="text-muted"><a href="mailto:slimatong@yahoo.fr">slimatong@yahoo.fr</a></div>
+        </div>
+		<div class="col-md-4">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="service-heading">Courier</h4>
+            <div class="text-muted">13 rue des Vosges</div>
+			<div class="text-muted">68310 Wittelsheim</div>
+        </div>
+          </div>
+      </div>
+    </section>
+
+	<!-- Livre d'or -->
+    <section id="book" class="bg-blue">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Information</h2>
+            <h3 class="section-subheading text-muted">Le mariage se tiendra le 2 septembre à Wittelsheim !</h3>
+          </div>
+        </div>
+        
+</div>
+    </section>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/agency.min.js"></script>
+
+	<script>
+		 $('#addComment').on('click',function(){$('#addComment').fadeOut();});
+	</script>
+  </body>
+
+</html>
